@@ -4,20 +4,33 @@ Study related the sorting algorithms to sort the elements....
 
 
 import java.util.*;
+
 import java.lang.*;
+
 import java.io.*;
 
+
 public class Main
+
 {
+
 	public static void main (String[] args) throws java.lang.Exception
+	
 	{
-		//your code here
-		// bubble sort - in this sorting algorithm we used to sort the element by their adjacent side of there element
+	
+		
+		// bubble sort - in this sorting algorithm we used to sort the element by their adjacent side of there element 
+		
 		// i.e (ascending order) -- 1 4 2 3 6 --- 1 2 3 4 6 ***it will directly sort the element in ascending order***
+		
 		// i.e (decending order) -- 1 4 2 3 6 --- 4 2 3 6 1 -- 4 3 6 2 1 -- 4 6 3 2 1 -- 6 4 3 2 1
+		
 		Scanner sc = new Scanner(System.in);
+		
 		int n = sc.nextInt();
+		
 		int arr[] = new int[n];
+		
 
 		for(int i=0;i<n;i++)
 			{
